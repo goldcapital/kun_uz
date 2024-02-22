@@ -1,0 +1,9 @@
+GET localhost:8080/init/admin
+###PROFILE CONTROLLER
+POST localhost:8080/auth/crete
+Content-Type: application/json
+
+{
+  "email": "abduraimovmuhamad888@gmail.com",
+  "password": "12345"
+}

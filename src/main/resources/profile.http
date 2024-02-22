@@ -1,0 +1,17 @@
+###PROFILE CONTROLLER
+POST localhost:8080/profile/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MDY2MDQ0ODMsImlkIjoxLCJyb2xlIjoiQURNSU4iLCJleHAiOjE3MDY2OTA4ODMsImlzcyI6Ikt1blV6VGVzdCJ9.UlSCrY4qNEXdA5YP8G21E0RX7N_Hbq0HcY2-IuFMtfJOoynkRqx4q5BuO2g4Tka-WfkGviVNDpaw6cofdYDYtA
+
+{
+"email":"abduraimovmuhammad",
+  "name": "ali",
+"surname": "alijan",
+  "password": "123456789"
+}
+
+####PROFEL DELETE By ID
+DELETE localhost:8080/profile/
+Authorization: Bearer
+###GET
+GET localhost:8080/

@@ -1,0 +1,6 @@
+package com.example.enums;
+
+public enum ArticleTypeEnums {
+    ASOSIY, MUHARRIR_TANLOVI,DOLZARB, MAQOLA,
+    FOTO ,YANGILIK ,INTERVIEW,BIZNES,SURUSHTURUV,VEDEO_YANGILIK
+}
